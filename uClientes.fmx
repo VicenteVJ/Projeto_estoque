@@ -1,0 +1,293 @@
+object frm_clientes: Tfrm_clientes
+  Left = 0
+  Top = 0
+  Caption = 'Clientes'
+  ClientHeight = 455
+  ClientWidth = 258
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 258.000000000000000000
+    Size.Height = 455.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 1
+    TabOrder = 2
+    TabPosition = None
+    Sizes = (
+      258s
+      455s
+      258s
+      455s
+      258s
+      455s)
+    object tbConsultar: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbConsultar'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 258.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object sbtn_voltar: TSpeedButton
+          Align = Left
+          Size.Width = 57.000000000000000000
+          Size.Height = 42.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'replytoolbuttonbordered'
+          Text = 'Voltar'
+        end
+        object sbtn_acrescentar: TSpeedButton
+          Align = Right
+          Position.X = 183.000000000000000000
+          Size.Width = 75.000000000000000000
+          Size.Height = 42.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'addtoolbutton'
+          OnClick = sbtn_acrescentarClick
+        end
+        object Label1: TLabel
+          Align = Client
+          StyledSettings = [Family, FontColor]
+          Size.Width = 126.000000000000000000
+          Size.Height = 42.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Clientes'
+          TabOrder = 2
+        end
+      end
+      object Layout2: TLayout
+        Align = Top
+        Position.Y = 42.000000000000000000
+        Size.Width = 258.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object sbtn_pesquisar: TSpeedButton
+          Align = Right
+          Position.X = 225.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'searchtoolbutton'
+          OnClick = sbtn_pesquisarClick
+        end
+        object edt_pesquisar: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Left
+          TabOrder = 1
+          Position.X = 7.000000000000000000
+          Position.Y = 7.000000000000000000
+          Margins.Left = 7.000000000000000000
+          Margins.Top = 7.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 7.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout3: TLayout
+        Align = Client
+        Size.Width = 258.000000000000000000
+        Size.Height = 374.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object ListView1: TListView
+          ItemAppearanceClassName = 'TDynamicAppearance'
+          ItemEditAppearanceClassName = 'TDynamicAppearance'
+          HeaderAppearanceClassName = 'TListHeaderObjects'
+          FooterAppearanceClassName = 'TEmptyItemObjects'
+          Align = Client
+          Size.Width = 258.000000000000000000
+          Size.Height = 374.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'txtNome'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Width = 87.000000000000000000
+              Appearance.Height = 44.000000000000000000
+              Appearance.PlaceOffset.X = 8.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'txtCodigo'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.Width = 143.000000000000000000
+              Appearance.Height = 44.000000000000000000
+              Appearance.PlaceOffset.X = 112.000000000000000000
+            end>
+          ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'Text1'
+              AppearanceClassName = 'TTextObjectAppearance'
+            end>
+        end
+      end
+    end
+    object tbInserir: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbInserir'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Layout4: TLayout
+        Align = MostTop
+        Size.Width = 258.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object sbtnVoltarInserir: TSpeedButton
+          Align = Left
+          Size.Width = 57.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'priortoolbuttonbordered'
+          Text = 'sbtnVoltarInserir'
+          OnClick = sbtnVoltarInserirClick
+        end
+        object Label2: TLabel
+          Align = Center
+          StyledSettings = [Family, Size, FontColor]
+          Size.Width = 193.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Insere Cliente'
+          TabOrder = 0
+        end
+      end
+      object Label4: TLabel
+        Align = MostTop
+        Position.Y = 103.000000000000000000
+        Size.Width = 258.000000000000000000
+        Size.Height = 31.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Nome:'
+        TabOrder = 2
+      end
+      object Label3: TLabel
+        Align = MostTop
+        Position.Y = 50.000000000000000000
+        Size.Width = 258.000000000000000000
+        Size.Height = 31.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Codigo:'
+        TabOrder = 3
+      end
+      object edtCodigo: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 6
+        Position.Y = 81.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Size.Width = 238.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtNome: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 4
+        Position.Y = 134.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Size.Width = 238.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label5: TLabel
+        Align = MostTop
+        Position.Y = 156.000000000000000000
+        Size.Width = 258.000000000000000000
+        Size.Height = 31.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Endereco:'
+        TabOrder = 1
+      end
+      object edtEndereco: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 5
+        Position.Y = 187.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Size.Width = 238.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Layout5: TLayout
+        Align = MostTop
+        Position.Y = 209.000000000000000000
+        Size.Width = 258.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        object sbtnSalvarCliente: TSpeedButton
+          Align = Center
+          StyledSettings = [Family, FontColor]
+          Text = 'Salvar'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          OnClick = sbtnSalvarClienteClick
+        end
+      end
+    end
+    object tbEditar: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbEditar'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=D:\Arquivos\Downloads\projetos_mobile-main\projetos_mob' +
+        'ile-main\projeto_estoque\bd_clientes'
+      'DriverID=SQLite')
+    LoginPrompt = False
+    Left = 112
+    Top = 209
+  end
+  object FDQ_Clientes: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * '
+      'from clientes'
+      '')
+    Left = 112
+    Top = 161
+  end
+end

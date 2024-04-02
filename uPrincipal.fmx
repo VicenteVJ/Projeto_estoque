@@ -1,0 +1,39 @@
+object frm_caption: Tfrm_caption
+  Left = 0
+  Top = 0
+  Caption = 'Projeto Univel'
+  ClientHeight = 455
+  ClientWidth = 267
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btn_clientes: TButton
+    StyledSettings = [FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Clientes'
+    TextSettings.Font.Family = 'Cooper'
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00090000000000000004000000}
+    OnClick = btn_clientesClick
+  end
+  object btn_produtos: TButton
+    StyledSettings = [FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Produtos'
+    TextSettings.Font.Family = 'Cooper'
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00090000000000000004000000}
+    OnClick = btn_produtosClick
+  end
+end

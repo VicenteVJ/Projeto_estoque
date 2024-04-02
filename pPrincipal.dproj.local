@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/03/12 19:40:18.000.396,=D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/12 19:42:33.000.343,D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\uPrincipal.pas=D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/12 19:42:33.000.343,D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\uPrincipal.fmx=D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/03/12 19:42:41.000.218,D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\pPrincipal.dproj=D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/03/12 19:47:35.000.088,=D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/12 19:49:09.000.857,D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\uClientes.fmx=D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/03/12 19:49:09.000.857,D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\uClientes.pas=D:\Users\mpepice\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/29 13:18:32.000.946,=C:\Users\Mateus\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto_estoque\Unit1.pas</Transaction>
+    <Transaction>2024/03/29 13:22:03.000.748,C:\Users\Mateus\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto_estoque\uProdutos.pas=C:\Users\Mateus\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto_estoque\Unit1.pas</Transaction>
+    <Transaction>2024/03/29 13:22:03.000.748,C:\Users\Mateus\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto_estoque\uProdutos.fmx=C:\Users\Mateus\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto_estoque\Unit1.fmx</Transaction>
+    <Transaction>2024/03/31 18:07:31.294,=C:\Users\Mateus\OneDrive\Documentos\Embarcadero\Studio\Projects\projeto_estoque\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
